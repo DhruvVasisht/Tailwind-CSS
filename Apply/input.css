@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    @apply bg-yellow-500 border rounded-3xl py-3 px-8 font-medium inline-block mr-4 
+    hover:cursor-pointer 
+    duration-300 border-transparent hover:bg-yellow-600 hover:text-black active:bg-yellow-900
+     focus:bg-black focus:outline-yellow-500
+}
+
+
+
+@tailwind utilities;
+
+.text-vic{
+    @apply text-yellow-500
+}
